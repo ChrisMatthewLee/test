@@ -1,0 +1,80 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+html {
+	background-image: url("..images/snowflake.jpg");
+}
+
+body {
+	width: 800px;
+	background-color: #0033cc;
+	border: 5px solid #33ccff;
+	margin: .5em auto 4em;
+	color: white;
+	border-radius: 25px;
+}
+
+header {
+	border-bottom: 5px solid #33ccff;
+	padding: 1em;
+}
+
+header h1 {
+	font-size: 300%;
+}
+
+header img {
+	width: 125px;
+	height: auto;
+	float: right;
+}
+
+section {
+	width: 400px;
+	border-right: 5px solid #33ccff;
+	float: left;
+	padding: 1em;
+}
+
+section p {
+	padding: 0 3em 0 2em;
+}
+
+aside {
+	width: 250px;
+	float: left;
+	padding: 1em 0 0 6em;
+}
+
+.greenText {
+	color: green;
+	text-shadow: white 1px 1px 1px;
+}
+
+.redText {
+	color: red;
+	text-shadow: white 1px 1px 1px;
+}
+
+footer {
+	clear: both;
+}
+
+footer p {
+	text-align:right;
+	padding: 2em 1em 1em 1em;
+	border-top: 5px solid #33CCFF;
+}
+
+h1 {
+	color: gold;
+	text-shadow: white 1px 1px 1px;
+}
+
+a:focus, a:hover a:active a:before a: {
+	font-style: italic;
+	color: white;
+	
+}
